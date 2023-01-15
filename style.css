@@ -1,0 +1,71 @@
+html {
+    font-size: 25px;
+}
+
+
+body {
+    /* font-family: */
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 100%;
+  }
+
+  .background {
+    background-image: url("../img/planet_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    color: white;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgba(77, 76, 76, 0.4); */
+    background-color: rgba(0, 0, 0, 0.42);
+    padding: 45px 80px;
+  }
+
+  .logo {
+    /* display: flex;
+    justify-content: left; */
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .logo:hover {
+    color: #E5A434;
+    transition: all 1s linear .2s;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu__link {
+    color: #FFFFFF;
+    font-size: 0.88rem;
+  }
+  .menu__link:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    width: 1.5px;
+    height: 16px;
+    margin: 0 50px;
+    background-color: #FFFFFF;
+  }
+
+  .menu__link:hover {
+    color: #B3E151;
+    transition: all 1s linear .2s;
+  }
+
+  .banner {
+    padding: 170px 0;
+  }
