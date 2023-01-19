@@ -17,7 +17,7 @@ body {
   }
 
   .background {
-    background-image: url("../img/planet_background.jpg");
+    background-image: url("./img/planet_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
     color: white;
@@ -69,3 +69,20 @@ body {
   .banner {
     padding: 170px 0;
   }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .project {
+    margin: 20px;
+    padding: 20px;
+    background-color: green;
+    width: calc((100% - 100px*2) /2);
+  }
+
+  /* .projectOne {
+    background-image: ;
+  } */
