@@ -97,6 +97,11 @@ body {
     background-size: 100% 100%;
   }
 
+  .projectRestaurant {
+    background: url(https://images.pexels.com/photos/3633990/pexels-photo-3633990.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100% 100%;
+  }
+
   .button {
     text-decoration: none;
     color: #c0a97a;
@@ -120,4 +125,5 @@ body {
  .project-par {
     font-size: .8rem;
     color: white;
+    text-shadow: 1px 1px 2px #c0a97a;
  }
