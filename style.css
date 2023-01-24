@@ -80,9 +80,9 @@ body {
   .project-item {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 2px;
     margin: 20px;
-    width: calc((100% - 130px*2)/2);
+    width: calc((100% - 200px*2)/2);
     background: black;
   }
 
@@ -107,19 +107,35 @@ body {
     background-size: 100% 100%;
   }
 
+  .projectRelax {
+    background: url(https://images.unsplash.com/photo-1512474331201-782fc6a4ee29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80);
+    background-size: 100% 100%;
+  }
+
+  .projectCalculate {
+    background: url(https://images.unsplash.com/photo-1653361860636-36f2fb89eab9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80);
+    background-size: 100% 100%;
+  }
+
+  .projectShowRoom {
+    background: url(https://images.unsplash.com/photo-1525657540605-025d22ddf3dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=380&q=80);
+    background-size: 100% 100%;
+  }
+
   .button {
     text-decoration: none;
     color: #c0a97a;
     background: rgba(0, 0, 0, .8);
     font-size: 12px;
-    width: 140px;
-    height: 40px;
-    line-height: 40px;
+    width: 180px;
+    /* height: 40px; */
+    /* line-height: 40px; */
     position: absolute;
     top: 20%;
     left: 50%;
     border: 2px solid #c0a97a;
     transform: translate(-50%, -50%);
+    padding: 10px;
  }
 
  /* .button:hover {
@@ -131,4 +147,6 @@ body {
     font-size: .8rem;
     color: white;
     text-shadow: 1px 1px 2px #c0a97a;
+    margin: 0;
+
  }
