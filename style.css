@@ -70,14 +70,23 @@ body {
   }
 
   .banner {
+    position: relative;
     padding: 170px 0;
+  }
+
+  h1 {
+    position: absolute;
+    top:80px;
+    right: 0;
+    left: 0;
   }
 
   .container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background: linear-gradient(black, white);
+    background: linear-gradient(black, white, black);
+    padding: 100px 5px;
 }
 
 .project-item {
@@ -87,6 +96,7 @@ body {
   margin: 20px;
   width: calc((100% - 200px*2)/2);
   background: black;
+  box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
   .project {
