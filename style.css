@@ -170,44 +170,31 @@ h1 {
 }
 
 .contacts__slogan {
-  margin: 0 auto 80px;
+  margin: 0 auto 50px;
+  text-shadow: rgb(224, 224, 220) 1px 0 10px;
 }
 
 .contacts-menu {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
-/* .social a {
+.contacts-link {
   width: 50px;
   height: 50px;
+  line-height: 50px;
+  /* font-size: 1.2rem; */
   border-radius: 50%;
   color: #000;
   background-color: #FFFFFF;
-} */
-
-/* .contacts-link:not(:last-child) {
-  margin-right: 80px;
-} */
-
-.contacts-link {
-  color: white;
-  text-decoration: none;
-
+  text-align: center;
 }
 
-.contacts-link:not(:last-child)::after {
-  content: "";
-  display: inline-block;
-  width: 1.5px;
-  height: 16px;
-  margin: 0 70px;
-  background-color: #ffffff;
+.contacts-link:not(:last-child) {
+  margin-right: 150px;
 }
 
 .contacts-link:hover {
-  color: #b3e151;
-  transition: all 1s linear 0.2s;
+transform: scale(1.2);
+transition-duration: 2s;
 }
-
