@@ -54,7 +54,7 @@ img {
 }
 
 .menu__link {
-  color: #fcf9f9ce;
+  color: white;
   text-shadow: rgb(224, 224, 220) 1px 0 10px;
   font-size: 0.88rem;
 }
@@ -64,7 +64,7 @@ img {
   width: 1.5px;
   height: 16px;
   margin: 0 50px;
-  background-color:  #e4d5b7;
+  background-color:  white;
 }
 
 .menu__link:hover {
@@ -82,6 +82,7 @@ h1 {
   top: 80px;
   right: 0;
   left: 0;
+  text-shadow: rgb(224, 224, 220) 1px 0 10px;
 }
 
 .gradient {
@@ -160,7 +161,8 @@ h1 {
   top: 20%;
   left: 50%;
   /* border: 2px solid #c0a97a; */
-  box-shadow: inset 0 0 5px rgba(101, 114, 126, 50);
+  /* box-shadow: inset 0 0 5px rgba(101, 114, 126, 50); */
+  box-shadow: inset 0 0 5px white;
   transform: translate(-50%, -50%);
   padding: 10px;
 }
@@ -168,7 +170,7 @@ h1 {
 
 .project-par {
   font-size: 0.8rem;
-  color: #d4c29d;
+  color: white;
   text-shadow: 1px 1px 2px #c0a97a;
   margin: 0;
 }
