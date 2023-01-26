@@ -1,10 +1,11 @@
 html {
   font-size: 25px;
+  font-family: 'Playfair Display', serif;
   /* переделать все на rem */
+  /* font-family: */
 }
 
 body {
-  /* font-family: */
   text-align: center;
   margin: 0;
   padding: 0;
@@ -64,12 +65,7 @@ img {
   width: 1.5px;
   height: 16px;
   margin: 0 50px;
-  background-color:  white;
-}
-
-.menu__link:hover {
-  transform: scale(1.2);
-  transition-duration: 2s;
+  background-color: white;
 }
 
 .banner {
@@ -82,6 +78,7 @@ h1 {
   top: 80px;
   right: 0;
   left: 0;
+  font-size: 45px;
   text-shadow: rgb(224, 224, 220) 1px 0 10px;
 }
 
@@ -116,7 +113,6 @@ h1 {
   position: relative;
 }
 
-/* need to add other  classes for projects to add background-image*/
 .projectPiano {
   background: url(https://images.unsplash.com/photo-1560105358-02361fa27b2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=489&q=80);
   background-size: 100% 100%;
@@ -149,24 +145,18 @@ h1 {
 
 .button {
   text-decoration: none;
-  /* color: #c0a97a; */
   color: #d4c29d;
   text-shadow: rgb(224, 224, 220) 1px 0 10px;
   background: rgba(0, 0, 0, 0.8);
-  font-size: 12px;
+  font-size: 15px;
   width: 50%;
-  /* height: 40px; */
-  /* line-height: 40px; */
   position: absolute;
   top: 20%;
   left: 50%;
-  /* border: 2px solid #c0a97a; */
-  /* box-shadow: inset 0 0 5px rgba(101, 114, 126, 50); */
   box-shadow: inset 0 0 5px white;
   transform: translate(-50%, -50%);
   padding: 10px;
 }
-
 
 .project-par {
   font-size: 0.8rem;
@@ -174,7 +164,6 @@ h1 {
   text-shadow: 1px 1px 2px #c0a97a;
   margin: 0;
 }
-
 
 .contacts {
   color: white;
@@ -195,7 +184,6 @@ h1 {
   width: 50px;
   height: 50px;
   line-height: 50px;
-  /* font-size: 1.2rem; */
   border-radius: 50%;
   color: #000;
   background-color: white;
@@ -207,6 +195,6 @@ h1 {
 }
 
 .contacts-link:hover {
-transform: scale(1.2);
-transition-duration: 2s;
+  transform: scale(1.2);
+  transition-duration: 2s;
 }
