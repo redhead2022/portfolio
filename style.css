@@ -1,6 +1,6 @@
 html {
   font-size: 25px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   /* переделать все на rem */
   /* font-family: */
 }
@@ -35,6 +35,32 @@ img {
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.42);
   padding: 45px 80px;
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#langENG,
+#langRU {
+  text-decoration: none;
+  color: #d4c29d;
+  text-shadow: rgb(224, 224, 220) 1px 0 10px;
+  font-size: 10px;
+  width: 35px;
+  margin: 5px;
+  font-family: "Playfair Display", serif;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0 5px white;
+  padding: 5px;
+}
+
+#langENG:hover,
+#langRU:hover {
+  transform: scale(1.2);
+  transition-duration: 2s;
 }
 
 .logo {
@@ -180,7 +206,7 @@ h1 {
   justify-content: center;
 }
 
-.contacts-link {
+.icon {
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -190,11 +216,11 @@ h1 {
   text-align: center;
 }
 
-.contacts-link:not(:last-child) {
+.icon:not(:last-child) {
   margin-right: 150px;
 }
 
-.contacts-link:hover {
+.icon:hover {
   transform: scale(1.2);
   transition-duration: 2s;
 }
