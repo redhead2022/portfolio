@@ -69,7 +69,8 @@ img {
 
 @media all and (max-width: 750px) {
   .header {
-    padding: 20px 30px;
+    flex-direction: column;
+    padding: 10px 20px;
   }
 }
 
@@ -77,6 +78,18 @@ img {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+@media all and (max-width: 750px) {
+  .languages {
+    justify-content: end;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .languages {
+    justify-content: center;
+  }
 }
 
 #langENG,
@@ -129,9 +142,22 @@ img {
   }
 }
 
+@media all and (max-width: 750px) {
+  .logo {
+    font-size: 0.9rem;
+  }
+}
+
 .menu {
   display: flex;
   align-items: center;
+}
+
+@media all and (max-width: 750px) {
+  .menu {
+    display: block;
+    padding: 5px;
+  }
 }
 
 .menu__link {
@@ -149,6 +175,12 @@ img {
 @media all and (max-width: 900px) {
   .menu__link {
     font-size: 0.8rem;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .menu__link {
+    font-size: 0.7rem;
   }
 }
 
