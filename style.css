@@ -375,7 +375,21 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 100px 5px;
+  padding: 70px 5px;
+}
+@media all and (max-width: 750px) {
+  .container {
+    padding: 40px 5px;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .container {
+    padding: 30px 5px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
 }
 
 .project-item {
@@ -388,6 +402,41 @@ h1 {
   box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.75);
 }
 
+@media all and (max-width: 1250px) {
+  .project-item {
+    margin: 30px 25px;
+  }
+}
+@media all and (max-width: 1150px) {
+  .project-item {
+    margin: 40px;
+    width: calc((100% - 100px * 2) / 2);
+  }
+}
+
+@media all and (max-width: 850px) {
+  .project-item {
+    margin: 25px;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .project-item {
+    width: calc((100% - 60px * 2) / 2);
+  }
+}
+
+@media all and (max-width: 650px) {
+  .project-item {
+    width: calc(100% - 100px * 2);
+  }
+}
+
+@media all and (max-width: 450px) {
+  .project-item {
+    width: 250px;
+  }
+}
 .project-item:hover {
   transform: scale(1.2);
   transition-duration: 2s;
@@ -396,6 +445,24 @@ h1 {
 .project {
   height: 300px;
   position: relative;
+}
+
+@media all and (max-width: 1250px) {
+  .project {
+    height: 250px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .project {
+    height: 200px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .project {
+    height: 180px;
+  }
 }
 
 .projectPiano {
@@ -443,11 +510,36 @@ h1 {
   padding: 10px;
 }
 
+@media all and (max-width: 650px) {
+  .button {
+    font-size: 0.55rem;
+    padding: 8px;
+  }
+}
+
 .project-par {
   font-size: 0.8rem;
   color: white;
   text-shadow: 1px 1px 2px #c0a97a;
   margin: 0;
+}
+
+@media all and (max-width: 950px) {
+  .project-par {
+    font-size: 0.7rem;
+  }
+}
+
+@media all and (max-width: 950px) {
+  .project-par {
+    font-size: 0.6rem;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .project-par {
+    font-size: 0.55rem;
+  }
 }
 
 .contacts {
