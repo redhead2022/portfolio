@@ -180,7 +180,6 @@ img {
 @media all and (max-width: 520px) {
   .logo {
     font-size: 0.6rem;
-    display: flex;
   }
 }
 
