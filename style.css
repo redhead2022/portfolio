@@ -543,12 +543,36 @@ h1 {
 
 .contacts {
   color: white;
-  padding: 50px 0;
+  padding: 30px 15px;
+}
+@media all and (max-width: 700px) {
+  .contacts {
+    font-size: 0.9rem;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .contacts {
+    font-size: 0.8rem;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .contacts {
+    font-size: 0.7rem;
+    padding: 5px 5px 25px;
+  }
 }
 
 .contacts__slogan {
-  margin: 0 auto 50px;
+  margin: 50px auto;
   text-shadow: rgb(224, 224, 220) 1px 0 10px;
+}
+
+@media all and (max-width: 500px) {
+  .contacts__slogan {
+    margin: 20px auto;
+  }
 }
 
 .contacts-menu {
@@ -569,6 +593,32 @@ h1 {
 .icon:not(:last-child) {
   margin-right: 150px;
 }
+
+@media all and (max-width: 700px) {
+  .icon:not(:last-child) {
+    margin-right: 100px;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .icon:not(:last-child) {
+    margin-right: 80px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .icon:not(:last-child) {
+    margin-right: 60px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .icon:not(:last-child) {
+    margin-right: 35px;
+  }
+}
+
+
 
 .icon:hover {
   transform: scale(1.2);
