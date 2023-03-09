@@ -2,7 +2,6 @@ html {
   font-size: 25px;
   font-family: "Playfair Display", serif;
   /* переделать все на rem */
-  /* font-family: */
 }
 
 body {
@@ -104,7 +103,7 @@ img {
   text-decoration: none;
   color: #d4c29d;
   text-shadow: rgb(224, 224, 220) 1px 0 10px;
-  font-size: 10px;
+  font-size: 0.4rem;
   width: 35px;
   margin: 5px;
   font-family: "Playfair Display", serif;
@@ -116,7 +115,7 @@ img {
 @media all and (max-width: 580px) {
   #langENG,
   #langRU {
-    font-size: 8px;
+    font-size: 0.32rem;
     width: 30px;
     margin: 2px;
     padding: 3px;
@@ -299,68 +298,68 @@ h1 {
   top: 80px;
   right: 0;
   left: 0;
-  font-size: 45px;
+  font-size: 1.8rem;
   text-shadow: rgb(224, 224, 220) 1px 0 10px;
 }
 
 @media all and (max-width: 1150px) {
   h1 {
-    font-size: 40px;
+    font-size: 1.6rem;
   }
 }
 
 @media all and (max-width: 1000px) {
   h1 {
     top: 50px;
-    font-size: 35px;
+    font-size: 1.4rem;
   }
 }
 
 @media all and (max-width: 900px) {
   h1 {
-    font-size: 30px;
+    font-size: 1.2rem;
   }
 }
 
 @media all and (max-width: 750px) {
   h1 {
     top: 30px;
-    font-size: 25px;
+    font-size: 1rem;
   }
 }
 
 @media all and (max-width: 650px) {
   h1 {
-    font-size: 23px;
+    font-size: 0.92rem;
   }
 }
 
 @media all and (max-width: 580px) {
   h1 {
-    font-size: 20px;
+    font-size: 0.8rem;
   }
 }
 
 @media all and (max-width: 520px) {
   h1 {
-    font-size: 18px;
+    font-size: 0.72rem;
   }
 }
 
 @media all and (max-width: 460px) {
   h1 {
-    font-size: 17px;
+    font-size: 0.68rem;
   }
 }
 @media all and (max-width: 430px) {
   h1 {
-    font-size: 16px;
+    font-size: 0.64rem;
   }
 }
 
 @media all and (max-width: 400px) {
   h1 {
-    font-size: 15px;
+    font-size: 0.6rem;
     top: 20px;
   }
 }
@@ -499,7 +498,7 @@ h1 {
   color: #d4c29d;
   text-shadow: rgb(224, 224, 220) 1px 0 10px;
   background: rgba(0, 0, 0, 0.8);
-  font-size: 15px;
+  font-size: 0.6rem;
   width: 50%;
   position: absolute;
   top: 20%;
